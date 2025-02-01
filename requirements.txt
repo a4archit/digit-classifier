@@ -1,5 +1,4 @@
 streamlit
 numpy
 tensorflow
-PIL
 streamlit_drawable_canvas
