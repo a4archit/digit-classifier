@@ -1,12 +1,12 @@
-import pickle 
 import streamlit as st
+import numpy as np
+import tensorflow as tf 
+from random import choice
+from PIL import Image
+
 from streamlit_drawable_canvas import st_canvas
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
-from random import choice
-import tensorflow as tf 
-import numpy as np
-from PIL import Image
 
 # used to diaplay some informaiton between program execution
 INFO_POINTS = False # set 'False' if you don't want these informative points
