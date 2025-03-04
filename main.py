@@ -61,8 +61,6 @@ with canvas_tab1:
         height=150,
         width=150,
         drawing_mode="freedraw",
-        # point_display_radius=point_display_radius if drawing_mode == "point" else 0,
-        # display_toolbar=st.sidebar.checkbox("Display toolbar", True),
         key="full_app"
     )
 
