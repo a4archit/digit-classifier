@@ -87,7 +87,7 @@ with canvas_tab2:
         
         # displaying the result 
         st.image(img, caption="Your drawing", width = 56)
-        if prediction_prob.max() > 0.5:
+        if prediction_prob.max() > 0.60:
             st.write(f"Prediction = **{prediction_label}**")
         else:
             bad_performance = [
