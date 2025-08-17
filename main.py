@@ -39,10 +39,9 @@ st.sidebar.write("[Kaggle](https://www.kaggle.com/architty108)")
 st.sidebar.write("[Github](https://www.github.com/a4archit)")
 st.sidebar.write("[LinkedIn](https://www.linkedin.com/in/archit-tyagi-191323296)")
 
-# st.set_page_config(
-#     page_title="Number predictor using MNIST"
-# )
 
+
+# main heading
 st.header("Number classifier")
 st.divider()
 
